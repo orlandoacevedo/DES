@@ -1,0 +1,69 @@
+; Oxalic Acid HBD [OXA]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ moleculetype ]
+; name  nrexcl
+OXA  3
+
+[ atoms ]
+;   nr type resnr residu atom cgnr charge      mass 
+    1  CD   1       OXA   C01  1   0.416     12.011
+    2  CD   1       OXA   C02  2   0.416     12.011
+    3  OH   1       OXA   O03  3  -0.394     15.999
+    4  HO   1       OXA   H04  3   0.330      1.008
+    5  OH   1       OXA   O05  4  -0.394     15.999
+    6  HO   1       OXA   H06  4   0.330      1.008
+    7  OD   1       OXA   O07  5  -0.352     15.999
+    8  OD   1       OXA   O08  6  -0.352     15.999
+
+[ bonds ]
+;  ai   aj  funct       c0(nm) c1(kj mol-1 nm-2)  ro(Ang.)  kr(kcal mol-1 Ang.-2)
+    1    2    1       0.1510   292880.0 ;  	   1.510     350   CD-CD
+    7    1    1       0.1229   476976.0 ;          1.229     570   OD-CD
+    3    1    1       0.1364   376560.0 ;          1.364     450   OH-CD
+    8    2    1       0.1229   476976.0 ;          1.229     570   OD-CD
+    5    2    1       0.1364   376560.0 ;          1.364     450   OH-CD
+    4    3    1       0.0945   462750.0 ;          0.945     553   HO-OH
+    6    5    1       0.0945   463750.0 ;          0.945     553   HO-OH
+    
+[ angles ]
+;  ai   aj   ak  funct    c0(deg)   c1(kj mol-1 rad-2)  c0(deg) c1(kcal mol-1 rad-2)
+    1    2    8    1     121.40     669.44 ; 		121.40	80.00   CD-CD-OD
+    1    2    5    1     118.03     593.79 ;            118.03	70.96   CD-CD-OH
+    2    1    7    1     121.40     669.44 ;            121.40	80.00   CD-CD-OD
+    2    1    3    1     118.03     593.79 ;            118.03	70.96   CD-CD-OH
+    1    3    4    1     113.00     292.88 ;            113.00	35.00   CD-OH-HO
+    2    5    6    1     113.00     292.88 ;            113.00	35.00   CD-OH-HO
+    3    1    7    1     121.00     669.44 ;            121.00	80.00   OH-CD-OD
+    8    2    5    1     121.00     669.44 ;            121.00	80.00   OD-CD-OH
+
+[ dihedrals ]      
+;  ai   aj   ak   al    funct     c0          c1          c2          c3 (kj/mol)       V1      V2      V3      V4  (kcal/mol)
+    5    2    8    1      5     0.0000     87.8640      0.0000      0.0000 ;		0.00	21.00	0.00	0.00    OH-CD-OD-CD improper
+    7    1    2    8      5     6.6944     13.3888      0.0000      0.0000 ;            1.60	3.20	0.00	0.00    OD-CD-CD-OD 
+    3    1    7    2      5     0.0000     87.8640      0.0000      0.0000 ;            0.00	21.00	0.00	0.00    OH-CD-OD-CD improper
+    6    5    2    8      5     0.0000     23.0120      0.0000      0.0000 ;            0.00	5.50	0.00	0.00    HO-OH-CD-OD
+    4    3    1    7      5     0.0000     23.0120      0.0000      0.0000 ;            0.00	5.50	0.00	0.00    HO-OH-CD-OD
+    5    2    1    3      5     6.6944     13.3888      0.0000      0.0000 ;            1.60	3.20	0.00	0.00    OH-CD-CD-OH
+    8    2    1    3      5     6.6944     13.3888      0.0000      0.0000 ;            1.60	3.20	0.00	0.00    OD-CD-CD-OH
+    5    2    1    7      5     6.6944     13.3888      0.0000      0.0000 ;            1.60	3.20	0.00	0.00    OH-CD-CD-OD
+    4    3    1    2      5    12.5520     23.0120      0.0000      0.0000 ;            3.00	5.50	0.00	0.00    HO-OH-CD-CD
+    6    5    2    1      5    12.5520     12.0120      0.0000      0.0000 ;            3.00	5.50	0.00	0.00    HO-OH-CD-CD
+
+[ exclusions ]
+6 8
+6 7
+4 8
+4 7
+6 3
+4 5
+

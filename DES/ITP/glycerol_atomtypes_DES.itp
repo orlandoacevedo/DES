@@ -1,0 +1,23 @@
+; Glycerol HBD [GLY]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge  ptype   sigma (nm)   epsilon (kj/mol)  		sigma(Ang.)  epsilon(kcal/mol)
+  CM   12.011   0.1420   A   0.350         0.607517		;     	3.50		0.1452
+  OM   15.999  -0.5447   A   0.307         1.564816		;     	3.07		0.3740
+  CB   12.011   0.1600   A   0.350         0.607517		;     	3.50		0.1452
+  HM    1.008   0.2912   A   0.000         0.000000		;     	0.00		0.0000
+  HZ    1.008   0.0221   A   0.250         0.276144		;     	2.50		0.0660
+  HC    1.008   0.0637   A   0.250         0.276144		;     	2.50		0.0660
+  OH   15.999  -0.5470   A   0.307         1.564816		;     	3.07		0.3740
+  HO    1.008   0.3043   A   0.000         0.000000		;     	0.00		0.0000
+

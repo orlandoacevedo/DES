@@ -1,0 +1,17 @@
+TITLE  Urea HBD [UREA]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  C     2     2       0.000   0.000   1.400                       C
+HETATM    2  O     2     2       0.000   0.000   0.000                       O
+HETATM    3  N     2     2      -1.256   0.000   2.125                       N
+HETATM    4  N     2     2       1.256   0.000   2.125                       N
+HETATM    5  HT    2     2       1.072   0.000   3.116                       H
+HETATM    6  HC    2     2       2.252   0.000   1.968                       H
+HETATM    7  HT    2     2      -1.072   0.000   3.116                       H
+HETATM    8  HC    2     2      -2.252   0.000   1.968                       H
+END

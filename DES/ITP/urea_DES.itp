@@ -1,0 +1,63 @@
+; Urea HBD [UREA]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ moleculetype ]
+; name  nrexcl
+UREA     3
+
+[ atoms ]
+;   nr  type  resnr   residu  atom  cgnr     charge       mass
+    1    C      1       UREA   C     1       0.124       12.011
+    2    O      1       UREA   O     1      -0.322       15.999
+    3    N      1       UREA   N     1      -0.453       14.007
+    4    N      1       UREA   N     1      -0.453       14.007
+    5    HT     1       UREA   HT    1       0.276        1.008
+    6    HC     1       UREA   HC    1       0.276        1.008
+    7    HT     1       UREA   HT    1       0.276        1.008
+    8    HC     1       UREA   HC    1       0.276        1.008
+
+[ bonds ]
+;  ai   aj  funct       c0 (nm)   c1 (kj mol-1 nm-2)   ro(Ang.)  kr(kcal mol-1 Ang.-2) 
+    1    2    1       0.1229    476976.000 ; 		1.229	 570	  C-O
+    1    3    1       0.1335    410032.000 ;            1.335	 490      C-N
+    1    4    1       0.1335    410032.000 ;            1.335	 490      C-N
+    3    7    1       0.1010    363171.200 ;            1.010	 434      N-HT
+    3    8    1       0.1010    363171.200 ;            1.010	 434      N-HC
+    4    5    1       0.1010    363171.200 ;            1.010	 434      N-HT
+    4    6    1       0.1010    363171.200 ;            1.010	 434      N-HC
+
+[ angles ]
+;  ai   aj   ak  funct  c0 (deg) c1 (kJ mol-1 rad-2)   c0(deg) c1(kcal mol-1 rad-2)
+    2    1    3    1    122.9   669.440 ; 		122.9	80	O-C-N
+    2    1    4    1    122.9   669.440 ;               122.9	80      O-C-N
+    1    3    7    1    119.8   292.880 ;               119.8	35      C-N-HT
+    1    3    8    1    119.8   292.880 ;               119.8	35      C-N-HC
+    1    4    5    1    119.8   292.880 ;               119.8	35      C-N-HT
+    1    4    6    1    119.8   292.880 ;               119.8	35      C-N-HC
+    3    1    4    1    114.2   585.760 ;               114.2	70      N-C-N
+    5    4    6    1    120.0   292.880 ;               120.0	35      HT-N-HC
+    7    3    8    1    120.0   292.880 ;               120.0	35      HT-N-HC
+
+[ dihedrals ]      
+;  ai   aj   ak   al    funct     c0          c1          c2          c3 (kj/mol)	V1      V2      V3      V4  (kcal/mol)
+    2    1    3    7      5      0.0000     20.5016      0.0000      0.0000 ; 		0.00	4.90	0.00	0.00	      O-C-N-HT
+    2    1    3    8      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          O-C-N-HC
+    2    1    4    5      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          O-C-N-HT
+    2    1    4    6      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          O-C-N-HC
+    7    3    1    4      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          HT-N-C-N
+    8    3    1    4      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          HC-N-C-N
+    5    4    1    3      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          HT-N-C-N
+    6    4    1    3      5      0.0000     20.5016      0.0000      0.0000 ;           0.00	4.90	0.00	0.00          HC-N-C-N
+    7    3    1    8      5      0.0000     20.9200      0.0000      0.0000 ;           0.00	5.00	0.00	0.00          HT-N-C-HC improper
+    5    4    1    6      5      0.0000     20.9200      0.0000      0.0000 ;           0.00	5.00	0.00	0.00          HT-N-C-HC improper
+    2    1    3    4      5      0.0000     87.8640      0.0000      0.0000 ;           0.00	21.00	0.00	0.00          O-C-N-N   improper
+

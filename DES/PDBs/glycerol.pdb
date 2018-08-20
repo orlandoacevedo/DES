@@ -1,0 +1,23 @@
+TITLE  Glycerol HBD [GLY]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  CM          0       0.023   0.048  -0.223                       C
+HETATM    2  OM          0      -0.076   1.361   0.313                       O
+HETATM    3  CB          0      -1.205  -0.751   0.176                       C
+HETATM    4  CB          0       1.296  -0.574   0.305                       C
+HETATM    5  HM          0      -0.970   1.663   0.067                       H
+HETATM    6  HZ          0       0.081   0.077  -1.322                       H
+HETATM    7  HC          0      -1.237  -0.841   1.270                       H
+HETATM    8  HC          0      -1.181  -1.756  -0.266                       H
+HETATM    9  HC          0       1.275  -1.662   0.137                       H
+HETATM   10  HC          0       1.340  -0.389   1.386                       H
+HETATM   11  OH          0      -2.323   0.001  -0.311                       O
+HETATM   12  OH          0       2.390   0.027  -0.381                       O
+HETATM   13  HO          0      -3.128  -0.350   0.102                       H
+HETATM   14  HO          0       3.200  -0.191   0.109                       H
+END

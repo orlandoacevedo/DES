@@ -1,0 +1,25 @@
+TITLE  Levulinic Acid HBD [LEV]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  C0A         0      -1.956   0.165  -0.000                       C
+HETATM    2  O0B         0      -3.027  -0.682  -0.000                       O
+HETATM    3  H0C         0      -2.712  -1.604  -0.000                       H
+HETATM    4  O0D         0      -2.132   1.366  -0.000                       O
+HETATM    5  C0E         0      -0.600  -0.510   0.001                       C
+HETATM    6  H0F         0      -0.524  -1.168   0.874                       H
+HETATM    7  H0G         0      -0.523  -1.169  -0.872                       H
+HETATM    8  C0H         0       0.536   0.498   0.001                       C
+HETATM    9  H0I         0       0.460   1.163  -0.868                       H
+HETATM   10  H0J         0       0.460   1.162   0.871                       H
+HETATM   11  C0K         0       1.896  -0.170  -0.000                       C
+HETATM   12  C0L         0       3.100   0.744  -0.000                       C
+HETATM   13  H0M         0       4.011   0.146  -0.001                       H
+HETATM   14  H0N         0       3.082   1.393  -0.882                       H
+HETATM   15  H0O         0       3.083   1.393   0.881                       H
+HETATM   16  O0P         0       2.010  -1.394  -0.000                       O
+END

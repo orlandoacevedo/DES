@@ -1,0 +1,20 @@
+; Phenol HBD [PHE]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge    ptype   sigma (nm)   epsilon (kj/mol)    sigma(Ang.)  epsilon(kcal/mol)
+  CB   12.011  -0.092      A   0.3550        0.322168          ;  3.55		0.077
+  CO   12.011   0.120      A   0.3550        0.322168          ;  3.55		0.077
+  HB    1.008   0.092      A   0.2420        0.138072          ;  2.42		0.033
+  OH   15.999  -0.468      A   0.3070        0.782408          ;  3.07		0.187
+  HO    1.008   0.348      A   0.0000        0.000000          ;  0.00		0.000
+ 

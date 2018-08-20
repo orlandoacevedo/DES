@@ -1,0 +1,21 @@
+; Malonic Acid HBD [MAL]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge    ptype   sigma (nm)   epsilon (kj/mol)    sigma(Ang.)  epsilon(kcal/mol)
+  CD   12.011   0.416      A   0.3750        1.09830		;   3.75	0.2625
+  CT   12.011  -0.096      A   0.3500        0.69035		;   3.50	0.1650
+  HC    1.008   0.048      A   0.2500        0.31380		;   2.50	0.0750
+  OD   15.999  -0.352      A   0.2960        2.19660		;   2.96	0.5250
+  OH   15.999  -0.424      A   0.3000        1.77820		;   3.00	0.4250
+  HO    1.008   0.360      A   0.0000        0.00000		;   0.00	0.0000
+

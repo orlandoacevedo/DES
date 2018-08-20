@@ -1,0 +1,27 @@
+; Levulinic Acid HBD [LEV]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+;   type   mass          charge  ptype  sigma (nm)   epsilon (kj/mol)   sigma(Ang.)  epsilon(kcal/mol)
+    CB     12.011        0.416     A  0.375        0.527184           ; 3.75		0.1260
+    OH     15.999       -0.424     A  0.300        0.853536           ; 3.00		0.2040
+    HO      1.008        0.360     A  0.000        0.000000           ; 0.00		0.0000
+    OB     15.999       -0.352     A  0.296        1.054368           ; 2.96		0.2520
+    CZ     12.011       -0.096     A  0.350        0.331373           ; 3.50		0.0792
+    HZ      1.008        0.048     A  0.250        0.150624           ; 2.50		0.0360
+    CF     12.011       -0.096     A  0.350        0.331373           ; 3.50		0.0792
+    HF      1.008        0.048     A  0.250        0.150624           ; 2.50		0.0360
+    CD     12.011        0.376     A  0.375        0.527184           ; 3.75		0.1260
+    CT     12.011       -0.144     A  0.350        0.331373           ; 3.50		0.0792
+    HT      1.008        0.048     A  0.250        0.150624           ; 2.50		0.0360
+    OC     12.011       -0.376     A  0.296        1.054368           ; 2.96		0.2520
+

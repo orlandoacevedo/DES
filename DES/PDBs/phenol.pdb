@@ -1,0 +1,22 @@
+TITLE  Phenol HBD [PHE]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  CB          0       1.423   1.526   0.858                       C
+HETATM    2  CB          0       1.030   0.489   0.001                       C
+HETATM    3  CB          0      -0.063   0.666  -0.858                       C
+HETATM    4  CB          0      -0.764   1.880  -0.859                       C
+HETATM    5  CO          0      -0.371   2.917  -0.002                       C
+HETATM    6  CB          0       0.722   2.739   0.857                       C
+HETATM    7  HB          0       2.258   1.390   1.514                       H
+HETATM    8  HB          0       1.565  -0.438   0.002                       H
+HETATM    9  HB          0      -0.363  -0.125  -1.513                       H
+HETATM   10  HB          0      -1.598   2.015  -1.515                       H
+HETATM   11  HB          0       1.022   3.531   1.512                       H
+HETATM   12  OH          0      -1.086   4.155  -0.003                       O
+HETATM   13  HO          0      -0.692   4.753   0.637                       H
+END

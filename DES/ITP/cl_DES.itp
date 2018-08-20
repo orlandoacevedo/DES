@@ -1,0 +1,20 @@
+; Chlorine  anion [cl]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ moleculetype ]
+; name  nrexcl
+Cl  3
+
+[ atoms ]
+;   nr type resnr residu atom cgnr charge      mass 
+    1  Cl     1     Cl    Cl   1     -0.800   35.45
+

@@ -1,0 +1,19 @@
+; Oxalic Acid HBD [OXA]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge  ptype   sigma (nm)   epsilon (kj/mol)	sigma(Ang.)  epsilon(kcal/mol)	
+  CD   12.011   0.416  A      0.3750       0.65898	      ; 3.75		0.1575
+  OH   15.999  -0.394  A      0.2920       1.06692            ; 2.92		0.2550
+  HO    1.008   0.330  A      0.0000       0.00000            ; 0.00		0.0000
+  OD   15.999  -0.352  A      0.2960       1.31796            ; 2.96		0.3150
+

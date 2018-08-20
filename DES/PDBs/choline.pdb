@@ -1,0 +1,30 @@
+TITLE  Choline  cation [Chol]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  CS          0       0.362   0.576   0.000                       C
+HETATM    2  HS          0       0.719   1.081   0.874                       H
+HETATM    3  HS          0       0.719   1.081  -0.874                       H
+HETATM    4  NA          0      -1.108   0.576   0.000                       N
+HETATM    5  CW          0       0.876  -0.876   0.000                       C
+HETATM    6  HW          0       0.519  -1.380  -0.874                       H
+HETATM    7  HW          0       0.519  -1.380   0.874                       H
+HETATM    8  OY          0       2.306  -0.876   0.000                       O
+HETATM    9  HY          0       2.626  -1.781   0.000                       H
+HETATM   10  CA          0      -1.598  -0.117   1.200                       C
+HETATM   11  HA          0      -2.581   0.232   1.437                       H
+HETATM   12  HA          0      -1.627  -1.170   1.017                       H
+HETATM   13  HA          0      -0.941   0.084   2.021                       H
+HETATM   14  CA          0      -1.598   1.962   0.000                       C
+HETATM   15  HA          0      -1.270   2.456   0.891                       H
+HETATM   16  HA          0      -1.212   2.477  -0.855                       H
+HETATM   17  HA          0      -2.667   1.962  -0.036                       H
+HETATM   18  CA          0      -1.598  -0.117  -1.200                       C
+HETATM   19  HA          0      -2.626   0.131  -1.360                       H
+HETATM   20  HA          0      -1.021   0.188  -2.049                       H
+HETATM   21  HA          0      -1.502  -1.174  -1.066                       H
+END

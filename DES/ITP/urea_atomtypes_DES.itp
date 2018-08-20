@@ -1,0 +1,19 @@
+; Urea HBD [UREA]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+;   type   mass          charge  ptype  sigma (nm)   epsilon (kj/mol)   	sigma(Ang.)  epsilon(kcal/mol)
+    C      12.011        0.124     A   0.375        0.65898		;	3.75		0.1575
+    O      15.999       -0.322     A   0.296        1.31796		;       2.96		0.3150
+    N      14.007       -0.453     A   0.355        1.06692		;       3.55		0.2550
+    HT      1.008        0.276     A   0.000        0.00000		;       0.00		0.0000
+    HC      1.008        0.276     A   0.000        0.00000		;       0.00		0.0000

@@ -1,0 +1,20 @@
+TITLE  Malonic Acid HBD [MAL]
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 6/2018
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: B. Doherty
+REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1  C01         0      -0.078   0.013   1.257                       C
+HETATM    2  C02         0      -0.790  -0.519   0.000                       C
+HETATM    3  H03         0      -0.762  -1.589   0.000                       H
+HETATM    4  H04         0      -1.808  -0.189   0.000                       H
+HETATM    5  C05         0      -0.078   0.013  -1.257                       C
+HETATM    6  O06         0       0.504   1.128  -1.226                       O
+HETATM    7  O07         0       0.504   1.128   1.226                       O
+HETATM    8  O08         0      -0.078  -0.760   2.460                       O
+HETATM    9  O09         0      -0.078  -0.760  -2.460                       O
+HETATM   10  H0A         0       0.723  -0.579   2.957                       H
+HETATM   11  H0B         0       0.723  -0.579  -2.957                       H
+END

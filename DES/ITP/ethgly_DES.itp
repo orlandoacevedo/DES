@@ -1,0 +1,68 @@
+; Ethylene Glycol HBD [ETGLY]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ moleculetype ]
+; name  nrexcl
+ETGLY     3
+
+[ atoms ]
+;   nr  type  resnr   residu  atom  cgnr     charge       mass
+    1    CG     1       ETGLY  C01   1       0.116       12.011
+    2    HG     1       ETGLY  H02   1       0.048        1.008
+    3    HG     1       ETGLY  H03   1       0.048        1.008
+    4    CG     1       ETGLY  C04   1       0.116       12.011
+    5    HG     1       ETGLY  H05   1       0.048        1.008
+    6    HG     1       ETGLY  H06   1       0.048        1.008
+    7    OG     1       ETGLY  O07   1      -0.560       15.999
+    8    HO     1       ETGLY  H08   1       0.348        1.008
+    9    OG     1       ETGLY  O09   1      -0.560       15.999
+   10    HO     1       ETGLY  H10   1       0.348        1.008
+
+[ bonds ]
+;  ai   aj  funct       c0 (nm)   c1 (kj mol-1 nm-2)    ro(Ang.)  kr(kcal mol-1 Ang.-2)
+    1    4    1       0.1529    224262.000 ;		1.529	  268	 CG-CG
+    1    2    1       0.1090    284512.000 ;            1.090	  340    CG-HG
+    1    3    1       0.1090    284512.000 ;            1.090	  340    CG-HG
+    4    5    1       0.1090    284512.000 ;            1.090	  340    CG-HG
+    4    6    1       0.1090    284512.000 ;            1.090	  340    CG-HG
+    1    9    1       0.1430    267776.000 ;            1.410	  320    CG-OG
+    4    7    1       0.1430    267776.000 ;            1.410	  320    CG-OG
+    7    8    1       0.0945    462750.400 ;            0.945	  553    OG-HO
+    9   10    1       0.0945    462750.400 ;            0.945	  553    OG-HO
+
+[ angles ]
+;  ai   aj   ak  funct  c0 (deg) c1 (kJ mol-1 rad-2)    c0(deg) c1(kcal mol-1 rad-2)
+    1    4    7    1    108.0   418.400 ;		108.0	50.0	CG-CG-OG
+    4    1    9    1    108.0   418.400 ;               108.0	50.0    CG-CG-OG
+    1    4    5    1    110.7   313.800 ;               110.7	37.5    CG-CG-HG
+    1    4    6    1    110.7   313.800 ;               110.7	37.5    CG-CG-HG
+    4    1    2    1    110.7   313.800 ;               110.7	37.5    CG-CG-HG
+    4    1    3    1    110.7   313.800 ;               110.7	37.5    CG-CG-HG
+    2    1    3    1    107.8   276.140 ;               107.8	33.0    HG-CG-HG
+    5    4    6    1    107.8   276.140 ;               107.8	33.0    HG-CG-HG
+    2    1    9    1    109.5   292.880 ;               109.5	35.0    HG-CG-OG
+    3    1    9    1    109.5   292.880 ;               109.5	35.0    HG-CG-OG
+    5    4    7    1    109.5   292.880 ;               109.5	35.0    HG-CG-OG
+    6    4    7    1    109.5   292.880 ;               109.5	35.0    HG-CG-OG
+    4    7    8    1    108.5   460.240 ;               108.5	55.0    CG-OG-HO
+    1    9   10    1    108.5   460.240 ;               108.5	55.0    CG-OG-HO
+
+[ dihedrals ]      
+;  ai   aj   ak   al    funct     c0          c1          c2          c3 (kj/mol)       V1   	V2   	V3   	V4  (kcal/mol)
+    9    1    4    7      5     16.264      -4.987      13.414       0.000  ;    	3.887	-1.192	3.206	0.000	OG-CG-CG-OG
+    1    4    7    8      5      1.727      -3.156       4.303       0.000  ;     	0.413	-0.754	1.028	0.000	CG-CG-OG-HO
+    4    1    9   10      5      1.727      -3.156       4.303       0.000  ;		0.413	-0.754	1.028	0.000	CG-CG-OG-HO
+
+[ exclusions ]
+8 9
+7 10
+

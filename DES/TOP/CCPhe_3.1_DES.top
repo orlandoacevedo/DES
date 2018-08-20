@@ -1,0 +1,37 @@
+; Choline Chloride Phenol (3:1) Topology
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+#define _FF_OPLS
+#define _FF_OPLSAA
+
+[defaults]
+;nbfunc comb-rule gen-pairs fudgeLJ fudgeQQ
+1           3        yes        0.5     0.5
+
+;;;LOAD ATOM TYPES
+#include "/HOME_DIRECTORY_PATH/Choline_itp/choline_atomtypes_DES.itp"
+#include "/HOME_DIRECTORY_PATH/Cl_itp/cl_atomtypes_DES.itp"
+#include "/HOME_DIRECTORY_PATH/Phenol_itp/phenol_atomtypes_DES.itp"
+
+;;;LOAD MOLECULES *.itp
+#include "/HOME_DIRECTORY_PATH/Choline_itp/choline_DES.itp"
+#include "/HOME_DIRECTORY_PATH/Cl_itp/cl_DES.itp"
+#include "/HOME_DIRECTORY_PATH/Phenol_itp/phenol_DES.itp"
+
+[system] 
+; Name
+Neat CHOL Cl PHE
+
+[molecules]
+CHOL 500
+Cl   500
+PHE  1500

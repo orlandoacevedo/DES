@@ -1,0 +1,10 @@
+TITLE    Chloride  anion [cl]
+REMARK  Deep Eutectic Solvent OPLS-DES force field
+REMARK  Version 6/2018
+REMARK  Orlando Acevedo
+REMARK  Email: orlando.acevedo@miami.edu
+REMARK  Contributors: B. Doherty
+REMARK  B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+
+HETATM    1 Cl           0      -0.381   0.502   0.000                      Cl
+END
