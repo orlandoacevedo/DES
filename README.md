@@ -7,7 +7,7 @@ This repository holds a set of OPLS-AA parameters for use in deep eutectic solve
 
 **OPLS-AA force field parameters (OPLS-DES).**
 Please see the following references for technical details:
-1. (Under review for publication)
+1. [doi:10.1021/acs.jpcb.8b06647](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.8b06647)
 
 **IMPORTANT**: Hydrogen bond donor (HBD) parameters should NOT be used for pure organic liquid simulations! HBD parameters were specifically parameterized to work exclusively with the provided choline chloride ion pair in a DES environment.
 
@@ -15,6 +15,7 @@ Requirements
 ------------
 * [Gromacs 5.0.7](http://www.gromacs.org/Downloads)
     * Tested with CUDA 7.5/8.0 and on CentOS 6.5/7.0
+    * Heat capacity DoS calculations (g_dos) requires Gromacs 5.1.4 due to a known bug in version 5.0.7
     
 Download
 -----
@@ -46,7 +47,7 @@ A brief tutorial is coming soon.
 
 References
 ----------
-Doherty, B.; Acevedo, O. "OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents" **2018**, (under review).
+Doherty, B.; Acevedo, O. "OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents" *J. Phys. Chem. B*, **2018**, *122*, (in press). [doi:10.1021/acs.jpcb.8b06647](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.8b06647)
 
 About
 -----
