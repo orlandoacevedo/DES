@@ -1,0 +1,13 @@
+; Chlorine  anion [cl]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge  ptype   sigma (nm)   epsilon (kj/mol)	sigma (Ang.)    epsilon (kcal/mol)
+  Cl   35.45   -0.800     A    0.377        0.619232	     ;  3.77	        0.1480

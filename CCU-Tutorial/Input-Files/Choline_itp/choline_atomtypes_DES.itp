@@ -1,0 +1,22 @@
+; Choline  cation [Chol]
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 6/2018
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: B. Doherty
+;
+; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
+
+[ atomtypes ]
+; type   mass  charge    ptype   sigma (nm)   epsilon (kj/mol)    sigma (Ang.)  epsilon (kcal/mol)
+  CS   12.011  -0.131      A   0.3500        0.276144		; 3.50		0.066
+  HS    1.008   0.068      A   0.2600        0.125520		; 2.60		0.030
+  NA   14.007   0.791      A   0.3250        0.711280		; 3.25		0.170
+  CA   12.011  -0.100      A   0.3500        0.276144		; 3.50		0.066
+  CW   12.011   0.132      A   0.3500        0.276144		; 3.50		0.066
+  OY   15.999  -0.468      A   0.3070        0.711280		; 3.07		0.170
+  HA    1.008   0.033      A   0.2500        0.125520		; 2.50		0.030
+  HW    1.008   0.034      A   0.2200        0.125520		; 2.20		0.030
+  HY    1.008   0.275      A   0.0000        0.000000		; 0.00		0.000
+
