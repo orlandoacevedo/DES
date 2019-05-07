@@ -42,8 +42,7 @@ Parameters Available
 
 Tutorial
 --------
-A brief tutorial is coming soon.
-
+A brief tutorial is provided in the CCU-Tutorial directory. A README file will guide the user through the contruction of a CCU (reline) box using the OPLS-DES parameter set and subsequent MD simulation. GROMACS input and output files are provided. The user is guided on how to compute both the density of the deep eutetic solvent system.
 
 References
 ----------
