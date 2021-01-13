@@ -4,7 +4,8 @@ REMARK Version 6/2018
 REMARK Orlando Acevedo
 REMARK Email: orlando.acevedo@miami.edu
 REMARK Contributors: B. Doherty
-REMARK B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents, J. Phys. Chem. B, 2018, (in press).
+REMARK  B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents
+REMARK  J. Phys. Chem. B, 2018, 122, 9982-9993. doi:10.1021/acs.jpcb.8b06647
 
 HETATM    1  C01         0      -0.371   0.675  -0.000                       C
 HETATM    2  C02         0       0.371  -0.675  -0.000                       C
