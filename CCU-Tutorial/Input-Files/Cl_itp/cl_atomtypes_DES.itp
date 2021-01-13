@@ -6,6 +6,9 @@
 ; Email: orlando.acevedo@miami.edu
 ; Contributors: B. Doherty
 ;
+; B.Doherty, O. Acevedo, OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents
+; J. Phys. Chem. B, 2018, 122, 9982-9993. doi:10.1021/acs.jpcb.8b06647
+;
 ; Values given below for use in GROMACS 5.0.7 and in comments are traditional OPLS-AA units (e.g., angstroms, kcal/mol, degrees)
 
 [ atomtypes ]
