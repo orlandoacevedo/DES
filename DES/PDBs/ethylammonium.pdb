@@ -1,0 +1,26 @@
+TITLE  ethylammonium
+REMARK
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 4/2021
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: X. Zhong
+REMARK
+REMARK Zhong, X.; Velez, C.; Acevedo, O.
+REMARK Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations.
+REMARK J. Chem. Theory Comput. 2021, 17, (in press).
+REMARK doi: 10.1021/acs.jctc.1c00047.
+REMARK
+REMARK GROMACS 5.0.7 is recommended for the values given below
+HETATM    1  C00 MOL     1       1.000   1.000   0.000
+HETATM    2  C01 MOL     1      -0.513   1.000   0.000
+HETATM    3  N02 MOL     1      -0.999   1.000   1.399
+HETATM    4  H03 MOL     1      -0.675   0.170   1.913
+HETATM    5  H04 MOL     1      -0.675   1.830   1.913
+HETATM    6  H05 MOL     1      -2.027   0.999   1.433
+HETATM    7  H06 MOL     1       1.377   0.999  -1.028
+HETATM    8  H07 MOL     1       1.395   0.113   0.507
+HETATM    9  H08 MOL     1       1.395   1.888   0.505
+HETATM   10  H09 MOL     1      -0.917   0.105  -0.481
+HETATM   11  H0A MOL     1      -0.917   1.895  -0.481
+END
