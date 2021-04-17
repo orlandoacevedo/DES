@@ -1,0 +1,40 @@
+; Template for different DES topology file
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 4/2021
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: X. Zhong
+;
+; Zhong, X.; Velez, C.; Acevedo, O.
+; Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations.
+; J. Chem. Theory Comput. 2021, 17, (in press).
+; doi: 10.1021/acs.jctc.1c00047.
+;
+; GROMACS 5.0.7 is recommended for the values given below
+
+#define _FF_OPLS
+#define _FF_OPLSAA
+
+[defaults]
+;nbfunc comb-rule gen-pairs fudgeLJ fudgeQQ
+1           3        yes        0.5     0.5
+
+;;;LOAD ATOM TYPES
+#include "/HOME_DIRECTORY_PATH/ITP/salt_atomtypes_DES.itp"
+#include "/HOME_DIRECTORY_PATH/ITP/cl_atomtypes_DES.itp"
+#include "/HOME_DIRECTORY_PATH/ITP/HBD_atomtypes_DES.itp"
+
+;;;LOAD MOLECULES
+#include "/HOME_DIRECTORY_PATH/ITP/salt_DES.itp"
+#include "/HOME_DIRECTORY_PATH/ITP/cl_DES.itp"
+#include "/HOME_DIRECTORY_PATH/ITP/HBD_DES.itp"
+
+[system] 
+; Name
+Neat DES
+
+[molecules]
+MOL   500
+Cl    500
+HBD   1000

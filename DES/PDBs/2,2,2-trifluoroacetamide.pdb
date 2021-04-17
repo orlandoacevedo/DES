@@ -1,0 +1,24 @@
+TITLE  2,2,2-trifluoroacetamide
+REMARK
+REMARK Deep Eutectic Solvent OPLS-DES force field
+REMARK Version 4/2021
+REMARK Orlando Acevedo
+REMARK Email: orlando.acevedo@miami.edu
+REMARK Contributors: X. Zhong
+REMARK
+REMARK Zhong, X.; Velez, C.; Acevedo, O.
+REMARK Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations.
+REMARK J. Chem. Theory Comput. 2021, 17, (in press).
+REMARK doi: 10.1021/acs.jctc.1c00047.
+REMARK
+REMARK GROMACS 5.0.7 is recommended for the values given below
+HETATM    1  N00 HBD     1       1.000   1.000   0.000
+HETATM    2  C01 HBD     1      -0.379   1.000   0.000
+HETATM    3  O02 HBD     1      -0.973   1.000   1.078
+HETATM    4  C03 HBD     1      -1.065   0.998  -1.385
+HETATM    5  F04 HBD     1      -0.152   0.997  -2.402
+HETATM    6  F05 HBD     1      -1.849  -0.097  -1.577
+HETATM    7  F06 HBD     1      -1.850   2.092  -1.581
+HETATM    8  H07 HBD     1       1.480   1.000   0.891
+HETATM    9  H08 HBD     1       1.539   1.001  -0.859
+END

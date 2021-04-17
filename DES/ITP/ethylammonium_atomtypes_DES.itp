@@ -1,0 +1,26 @@
+; ethylammonium
+;
+; Deep Eutectic Solvent OPLS-DES force field
+; Version 4/2021
+; Orlando Acevedo
+; Email: orlando.acevedo@miami.edu
+; Contributors: X. Zhong
+;
+; Zhong, X.; Velez, C.; Acevedo, O.
+; Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations.
+; J. Chem. Theory Comput. 2021, 17, (in press).
+; doi: 10.1021/acs.jctc.1c00047.
+;
+; GROMACS 5.0.7 is recommended for the values given below
+
+
+[ atomtypes ]
+;    type         mass    charge  ptype  sigma(nm)   epsilon(kj/mol)
+          CT     12.011  -0.248    A    3.50000E-01   2.76144E-01
+          HT      1.008   0.146    A    2.50000E-01   1.25520E-01
+          CA     12.011   -0.44    A    3.50000E-01   2.76144E-01
+          HA      1.008    0.15    A    2.50000E-01   1.25520E-01
+           N     14.007  -0.205    A    3.25000E-01   7.11280E-01
+          HN      1.008   0.385    A    0.00000E+00   0.00000E+00
+
+
