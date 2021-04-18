@@ -8,8 +8,9 @@ This repository holds a set of OPLS-AA parameters for use in deep eutectic solve
 **OPLS-AA force field parameters (OPLS-DES).**
 Please see the following references for technical details:
 1. [doi:10.1021/acs.jpcb.8b06647](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.8b06647)
+2. [doi:10.1021/acs.jctc.1c00047](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00047)
 
-**IMPORTANT**: Hydrogen bond donor (HBD) parameters should NOT be used for pure organic liquid simulations! HBD parameters were specifically parameterized to work exclusively with the provided choline chloride ion pair in a DES environment.
+**IMPORTANT**: Hydrogen bond donor (HBD) parameters should NOT be used for pure organic liquid simulations! HBD parameters were specifically parameterized to work exclusively with the provided ion pairs in a DES environment.
 
 Requirements
 ------------
@@ -28,6 +29,9 @@ Parameters Available
 * **Ions**
     * choline
     * chloride
+    * ethylammonium
+    * N,N-diethylethanolammonium
+    * N-ethyl-N,N-dimethylethanolammonium
 * **Hydrogen bond donors**
     * urea
     * glycerol
@@ -36,6 +40,8 @@ Parameters Available
     * levulinic acid
     * oxalic acid
     * malonic acid
+    * acetamide
+    * 2,2,2-trifluoroacetamide
     
 * **DES** - OPLS-DES bonded and nonbonded parameters
     * itp, top, and pdb folders
@@ -49,15 +55,17 @@ References
 Doherty, B.; Acevedo, O. "OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents" *J. Phys. Chem. B*, **2018**, *122*, 9982-9993. [doi:10.1021/acs.jpcb.8b06647](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.8b06647)
 * Featured on the journal cover [Nov. 1, 2018 issue](https://pubs.acs.org/toc/jpcbfk/122/43)
 
+Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations" *J. Chem. Theory Comput.*, **2021**, *17*, (in press). [doi:10.1021/acs.jctc.1c00047](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00047)
+
 About
 -----
-**Contributing Authors**: Brian Doherty and Orlando Acevedo*
+**Contributing Authors**: Brian Doherty, Caroline Velez, Xiang Zhong, and Orlando Acevedo*
 
-**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205) for funding the project.
+**Funding**: Gratitude is expressed to the National Science Foundation (NSF CHE-1562205 and CHE-2102038) for funding the project.
 
 **Software License**:
 OPLS-DES.
-Copyright (C) 2018 Orlando Acevedo
+Copyright (C) 2021 Orlando Acevedo
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
