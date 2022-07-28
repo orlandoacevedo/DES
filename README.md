@@ -55,7 +55,11 @@ References
 Doherty, B.; Acevedo, O. "OPLS Force Field for Choline Chloride-Based Deep Eutectic Solvents" *J. Phys. Chem. B*, **2018**, *122*, 9982-9993. [doi:10.1021/acs.jpcb.8b06647](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.8b06647)
 * Featured on the journal cover [Nov. 1, 2018 issue](https://pubs.acs.org/toc/jpcbfk/122/43)
 
-Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations" *J. Chem. Theory Comput.*, **2021**, *17*, 3078–3087. [doi:10.1021/acs.jctc.1c00047](http://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00047)
+Zhong, X.; Velez, C.; Acevedo, O. "Partial Charges Optimized by Genetic Algorithms for Deep Eutectic Solvent Simulations" *J. Chem. Theory Comput.*, **2021**, *17*, 3078–3087. [doi:10.1021/acs.jctc.1c00047](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.1c00047)
+
+Velez, C.; Acevedo, O. "Simulation of Deep Eutectic Solvents: Progress to Promises" *WIREs Comput. Mol. Sci.*, **2022**, *12*, e1598. [doi:10.1002/wcms.1598](https://doi.org/10.1002/wcms.1598)
+
+Rukmani, S.J.; Doherty, B.; Acevedo, O.; Colina, C.M. "Molecular simulations of deep eutetic solvents: A perspective on structure, dynamics, and physical properties" *Rev. Comput. Chem.*, **2022**, *32*, 135-216. [doi:doi.org/10.1002/9781119625933.ch4](https://doi.org/10.1002/9781119625933.ch4)
 
 About
 -----
